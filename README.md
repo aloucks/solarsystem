@@ -10,6 +10,8 @@ Experimenting with jME3 / Summer 2011
 - Planetary rotation scaled to one Earth day per 30s.
 - Atmosphere and night-lights are implemented for Earth.
 
+Screen Shots: http://imgur.com/a/T6VLJ#0
+
 Main class: 
 > net.cofront.solarsystem.Main
 
