@@ -3,8 +3,8 @@ Solar System Simulator
 Experimenting with jME3 / Summer 2011
 
 - High resolution imagary courtasy of NASA and others. 
-- Planetary distances are proportional to each other.
-- Planetary sizes are proportional to each other. The Sun had to be scaled down further due it being insanely massive.
+- Planetary distances are proportionally accurate.
+- Planetary sizes are proportional to each other. The Sun had to be scaled down further due it being incredibly massive.
 - Planetary axial tilt is roughly accurate.
 - Planetary oribits are roughly accurate to the date. The date can be increased/decreased via the ```f``` and ```r``` keys.
 - Planetary rotation scaled to one Earth day per 30s.
