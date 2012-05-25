@@ -1,0 +1,28 @@
+Material Earth Clouds : MatDefs/LightingWithShadowMap.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/EarthHighRes/clouds_diffuse.jpg
+		AlphaMap : 		Flip Textures/EarthHighRes/clouds_diffuse.jpg
+		// SpecularMap:	Flip Textures/EarthHighRes/clouds_diffuse.jpg
+		// Doesn't work with the alpha map
+		// NormalMap:		Flip Textures/EarthHighRes/clouds_normal.jpg
+
+		Shininess : 	32
+		// HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.05 0.05 0.05 0.05
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 0.05 0.05 0.05 0.05
+		// Specular : 1.0 1.0 1.0 1.0
+		// Shadow	 : 1.0 1.0 1.0 1.0
+		// ShadowMapLightRamp : 0.2
+		AlphaDiscardThreshold : 0.01 
+		// 0.1
+	}
+	
+	AdditionalRenderState {
+        Blend Alpha
+        AlphaTestFalloff 0.01
+        // 0.1
+        // FaceCull Off
+    }
+}

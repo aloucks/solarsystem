@@ -1,0 +1,13 @@
+Material Mercury : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/mercury_diffuse.jpg
+		NormalMap : 	Flip Textures/mercury_normal.jpg
+		Shininess : 	0.01
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.1 0.1 0.1 0.05
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 1.0 1.0 1.0 0.5
+	}
+}
+

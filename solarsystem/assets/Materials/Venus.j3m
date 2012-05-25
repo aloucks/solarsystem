@@ -1,0 +1,28 @@
+Material Venus : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/venus_diffuse.jpg
+		NormalMap : 	Flip Textures/venus_normal.jpg
+		// Shininess : 	0.5
+		// HighQuality : 	true
+		// UseMaterialColors : true
+		// Ambient  : 0.1 0.1 0.1 0.05
+		// Diffuse  : 1.0 1.0 1.0 1.0
+		// Specular : 1.0 1.0 1.0 0.5
+		
+		// Shininess : 	1
+		// HighQuality : 	true
+		// UseMaterialColors : true
+		// Ambient  : 0.1 0.1 0.1 0.05
+		// Diffuse  : 1.0 1.0 1.0 1.0
+		// Specular : 0.25 0.2 0.2 0.3
+		
+		Shininess : 	0.01
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.1 0.1 0.1 0.05
+		Diffuse  : 1.0 1.0 1.0 1.0
+		// Specular : 0.25 0.2 0.2 0.3
+		Specular : 1.0 1.0 1.0 1.0
+	}
+}
+

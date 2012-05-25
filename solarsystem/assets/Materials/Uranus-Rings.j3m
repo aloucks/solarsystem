@@ -1,0 +1,23 @@
+Material UranusRings : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Textures/Rings/Uranus/rings_diffuse.jpg
+		AlphaMap: 		Textures/Rings/Uranus/rings_alpha.jpg
+		// NormalMap: 		Textures/SaturnRings/rings_normal.jpg
+		Shininess: 16
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 1.0 1.0 1.0 1.0
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 1.0 1.0 1.0 1.0
+		UseAlpha: true
+		AlphaDiscardThreshold : 0.001
+		
+	}
+	
+	AdditionalRenderState {
+        Blend Alpha
+        AlphaTestFalloff 0.0001
+        FaceCull Off
+    }
+}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty-styles>
+  <style id="cofront-progress#box">
+    <attributes filename="Interface/Images/cofront-progress-box.png" imageMode="resize:06,20,06,06,06,20,06,20,06,20,06,06" childLayout="absolute"/>
+  </style>
+  <style id="cofront-progress#bar">
+    <attributes x="0" y="0" filename="Interface/Images/cofront-progress-bar.png" width="10px" height="10px" imageMode="resize:06,20,06,06,06,20,06,20,06,20,06,06" />
+  </style>
+</nifty-styles>

@@ -1,0 +1,13 @@
+Material Pluto : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/pluto_diffuse.jpg
+		NormalMap : 	Flip Textures/pluto_normal.jpg
+		Shininess : 	0.01
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.01 0.01 0.01 0.01
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 1.0 1.0 1.0 1.0
+	}
+}
+

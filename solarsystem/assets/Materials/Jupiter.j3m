@@ -1,0 +1,12 @@
+Material Jupiter : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/jupiter_diffuse.jpg
+		Shininess: 0.5
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.05 0.05 0.05 0.05
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 1.0 1.0 1.0 0.5
+	}
+}
+

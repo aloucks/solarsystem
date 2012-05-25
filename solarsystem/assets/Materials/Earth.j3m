@@ -1,0 +1,18 @@
+Material Earth : MatDefs/LightingWithShadowMap.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/EarthHighRes/earth_diffuse2.jpg
+		NormalMap : 	Flip Textures/EarthHighRes/earth_normal2.jpg
+		ShadowMap : 	Flip Textures/EarthHighRes/earth_shadow.jpg
+		SpecularMap:	Flip Textures/EarthHighRes/earth_specular2.jpg
+
+		Shininess : 	1.5
+		// HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 0.05 0.05 0.05 0.05
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 0.3 0.3 0.3 0.5
+		// Specular : 1.0 1.0 1.0 1.0
+		Shadow	 : 1.0 1.0 1.0 1.0
+		ShadowMapLightRamp : 0.2
+	}
+}

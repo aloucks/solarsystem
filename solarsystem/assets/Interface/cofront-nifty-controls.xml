@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty-controls>
+  <controlDefinition name="progress" style="cofront-progress" controller="net.cofront.jme3.ui.nifty.ProgressBarControl">
+    <image style="#box" childLayout="absolute">
+      <image id="#bar" style="#bar"/>  
+    </image>
+  </controlDefinition>
+</nifty-controls>

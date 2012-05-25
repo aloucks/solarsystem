@@ -1,0 +1,6 @@
+Material Sun : Common/MatDefs/Misc/Unshaded.j3md {
+	MaterialParameters {
+		ColorMap :	Flip Textures/sun_diffuse.jpg
+		GlowMap	 : Flip Textures/sun_diffuse.jpg
+	}
+}

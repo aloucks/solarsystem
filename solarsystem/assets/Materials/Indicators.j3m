@@ -1,0 +1,10 @@
+Material Indicators : Common/MatDefs/Misc/Unshaded.j3md {
+	MaterialParameters {
+		ColorMap: Textures/circle.png
+	}
+	
+	AdditionalRenderState {
+        Blend Alpha
+        AlphaTestFalloff 0.01
+    }
+}

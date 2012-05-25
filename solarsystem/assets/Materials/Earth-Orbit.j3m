@@ -1,0 +1,5 @@
+Material Orbit : Common/MatDefs/Misc/Unshaded.j3md {
+	MaterialParameters {
+		Color : 0.011764706 0.61960787 0.9882353 1.0
+	}
+}

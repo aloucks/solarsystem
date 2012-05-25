@@ -1,0 +1,23 @@
+Material Saturn : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Textures/Rings/Saturn/rings_diffuse.jpg
+		AlphaMap: 		Textures/Rings/Saturn/rings_alpha.jpg
+		// NormalMap: 		Textures/SaturnRings/rings_normal.png
+		Shininess: 16
+		HighQuality : 	true
+		UseMaterialColors : true
+		Ambient  : 1.0 1.0 1.0 1.0
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 1.0 1.0 1.0 1.0
+		UseAlpha: true
+		AlphaDiscardThreshold : 0.01
+		
+	}
+	
+	AdditionalRenderState {
+        Blend Alpha
+        AlphaTestFalloff 0.01
+        FaceCull Off
+    }
+}
+

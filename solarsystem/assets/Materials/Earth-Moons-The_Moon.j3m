@@ -1,0 +1,13 @@
+Material Moon : Common/MatDefs/Light/Lighting.j3md {
+	MaterialParameters {
+		DiffuseMap :	Flip Textures/earth-moon_diffuse.jpg
+		NormalMap : 	Flip Textures/earth-moon_normal.jpg
+		Shininess : 	0.1
+		HighQuality : 	true
+		// UseMaterialColors : true
+		Ambient  : 0.2 0.2 0.2 0.5
+		Diffuse  : 1.0 1.0 1.0 1.0
+		Specular : 0.1 0.1 0.1 0.1
+	}
+}
+

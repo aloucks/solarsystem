@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty.xsd" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty.xsd">
+ 
+  <useControls filename="nifty-default-controls.xml"/>
+  <useStyles filename="nifty-default-styles.xml"/>
+  
+  <useControls filename="Interface/cofront-nifty-controls.xml"/>
+  <useStyles filename="Interface/cofront-nifty-styles.xml"/>
+  
+  <screen id="loading">
+    <layer id="layer1" backgroundColor="#000000ff" childLayout="center">
+       <control id="progressBar" name="progress" align="center" valign="center" width="30%" height="24px" />
+    </layer>
+  </screen>
+  <screen id="main" controller="test.ScreenControllerTest">
+     <layer id="layer2" childLayout="vertical" align="center">
+     </layer>
+  </screen>
+</nifty>
+  
