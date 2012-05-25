@@ -34,16 +34,16 @@ r     : Decrement the date
 ```
 Screen Shots: http://imgur.com/a/T6VLJ#0
 
-![](http://i.imgur.com/J8yTO.jpg)
+![Untitled-1](http://i.imgur.com/J8yTO.jpg)
 
-![](http://i.imgur.com/SM5hj.jpg)
+![Untitled-2](http://i.imgur.com/SM5hj.jpg)
 
-![](http://i.imgur.com/evEI5.jpg)
+![Untitled-3](http://i.imgur.com/evEI5.jpg)
 
-![](http://i.imgur.com/gY81I.jpg)
+![Untitled-4](http://i.imgur.com/gY81I.jpg)
 
-![](http://i.imgur.com/MucO2.jpg)
+![Untitled-5](http://i.imgur.com/MucO2.jpg)
 
-![](http://i.imgur.com/1GOtS.jpg)
+![Untitled-6](http://i.imgur.com/1GOtS.jpg)
 
 
